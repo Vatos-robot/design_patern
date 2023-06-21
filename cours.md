@@ -37,7 +37,6 @@ exemple : https://github.com/Vatos-robot/AbstractFactory
 
     Ce pattern permet d'abstraire la construction d'obj complexe de leur implementation de sorte qu'un client puisse creer des objets complexes sans avoir a se preocuper des differences d'implementation 
 
-![Alt text](img/3.png)
 
 exemple:  https://github.com/Vatos-robot/builder-pattern
 
@@ -49,3 +48,17 @@ pourquoi utilisateur ce pattern :
 ### Le pattern Factory Method
 ![Alt text](img/3.png)
 Le but étant d'introduire une méthode abstraite de création d'objet en la reportant aux sous-classes concretes la création effective
+code exemple /FactoryMethod
+
+
+### Le pattern Singleton 
+il faut s'assure de 2 choses lorsqu'on veut mettre en place ce pattern :
+- une classe ne doit posseder qu'une seule instance 
+- il faut fournir une methode de classe qui permet de fournir cette instance unique 
+
+
+### le pattern prototype 
+![Alt text](img/5.png)
+Le but de ce pattern est de creer de nouveau objets en dupliquant des objets existants appeles "prototypes" 
+ces derniers disposent d'une capacité de clonage 
+
