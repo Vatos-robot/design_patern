@@ -45,3 +45,7 @@ pourquoi utilisateur ce pattern :
 - le client a besoin de contruire des objets sans connaitre leur implementation
 - un client a besoin de construire des objets complexes ayant plusieurs representations ou implementations
 
+
+### Le pattern Factory Method
+![Alt text](img/3.png)
+Le but étant d'introduire une méthode abstraite de création d'objet en la reportant aux sous-classes concretes la création effective
