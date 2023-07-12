@@ -88,3 +88,11 @@ exemple code : https://github.com/Vatos-robot/adapter
 ![Alt text](img/7.png)
 Decorator est un modèle de conception structurelle qui vous permet d'attacher de nouveaux comportements à des objets en plaçant ces objets à l'intérieur d'objets wrapper spéciaux qui contiennent les comportements.
 
+
+
+TODO 
+
+
+
+## Les pattern de comportement
+
